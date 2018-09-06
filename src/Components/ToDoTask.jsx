@@ -24,14 +24,23 @@ class ToDoTask extends Component {
         //na podstawie propsa podawanego zmienia styl danego li
 
         let styleTask;
-        if(this.props.deleted){
+        if(this.props.done){
             styleTask = {
-                color: 'red',
-                textDecoration: 'underline',
+                transition: '1s',
+                opacity: '0.4',
+                textDecoration: 'line-through',
             }}
+        else if (this.props.urgent){
+            styleTask = {
+                transition: '0.2s',
+                opacity: '1',
+                textDecoration: 'underline',
+                color: 'red',
+            }
+        }
         else{
             styleTask = {
-                color: 'blue',
+                transition: '1s',
                 textDecoration: 'none',
             }}
             return styleTask

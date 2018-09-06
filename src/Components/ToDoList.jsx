@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ToDoTask from './ToDoTask'
 import './ToDoList.css';
+import '../../node_modules/font-awesome/css/font-awesome.css';
 
 class ToDoList extends Component {
     constructor(props){
@@ -10,6 +11,12 @@ class ToDoList extends Component {
         let tasks = JSON.parse(localStorage.tasks);
         let falseArray = this.createFalseArray(tasks);
         let importantArray = this.createFalseArray(tasks);
+        let displayTooltip = {
+            visibility: 'hidden',
+        };
+        let inputStyle = {
+            borderBottom: 'none',
+        };
 
         this.state = {
             value: '',
@@ -17,14 +24,17 @@ class ToDoList extends Component {
             localTasks,
             falseArray,
             importantArray,
+            inputStyle,
+            displayTooltip,
         }
     }
 
     creatingTasks = () => {
         //mapowanie tablicy z zadaniami oraz przeslanie danego argumentu z tablicy falseArray jako props
-        const {tasks,falseArray} = this.state;
-        const falseTaskArray = [...falseArray];
 
+        const {tasks,falseArray,importantArray} = this.state;
+        const falseTaskArray = [...falseArray];
+        const falseImportantArray = [...importantArray];
 
         const modifyTasks = tasks.map((element,index) =>{
             return (
@@ -35,13 +45,14 @@ class ToDoList extends Component {
                     key={index}
                     element={element}
                     tasks={this.state.tasks}
-                    deleted={falseTaskArray[index]}
-
+                    done={falseTaskArray[index]}
+                    urgent={falseImportantArray[index]}
                 />
             );
         });
 
         return modifyTasks;
+
 
     };
 
@@ -59,45 +70,73 @@ class ToDoList extends Component {
     saveTasksToLocalStorage = () => {
         //dodanie tasków do local storage
 
-        const newValue = this.state.value;
-        const localTasks = [...this.state.tasks];
-        localTasks.push(newValue);
-        localStorage.setItem('tasks', JSON.stringify(localTasks));
+            const newValue = this.state.value;
+            const localTasks = [newValue,...this.state.tasks];
+            localStorage.setItem('tasks', JSON.stringify(localTasks));
     };
 
     handleInput = event => {
         // pobiera wartosc aktualna wpisywaną w inputa
+        if(this.state.tasks.length >= 8){
+            this.setState({
+                inputStyle: {
+                    borderBottom: '2px solid red',
+                },
+            })
+        }else{
+            this.setState({
+                inputStyle: {
+                    borderBottom: '',
+                }
+            })
+        }
         this.setState({
             value: event.target.value.substr(0, 80),
-        })
+        });
     };
 
     handleSubmit = event => {
         event.preventDefault();
-        const {value, tasks} = this.state;
-        //dodanie nowego zadania z inputa do tablicy zadań
+        const {value, tasks, falseArray,importantArray} = this.state;
+        if(tasks.indexOf(value) === -1 && this.state.tasks.length < 8) {
+            //dodanie nowego zadania z inputa do tablicy zadań
 
-        const newValue = value;
-        const currentTasks = [...tasks];
+            const newValue = value;
+            const currentTasks = [...tasks];
+            const fArray = [...falseArray];
+            const iArray = [...importantArray];
 
-        this.saveTasksToLocalStorage();
+            this.saveTasksToLocalStorage();
 
-        this.setState({
-            value: '',
-            tasks: [newValue, ...currentTasks],
-        });
-
+            this.setState({
+                value: '',
+                tasks: [newValue, ...currentTasks],
+                falseArray: [false, ...fArray],
+                importantArray: [false, ...iArray],
+            });
+        }
     };
 
     handleDeleteTask = index => {
         //pobranie z buttona indexu nastepnie usuniece go z tablicy
         // tasków oraz zaaktualizowanie localStorage
-        const {tasks} = this.state;
+        const {tasks,falseArray, importantArray} = this.state;
 
         const tasksArray = [...tasks];
+        const falArray = [...falseArray];
+        const impArray = [...importantArray];
         tasksArray.splice(index, 1);
+        falArray.splice(index, 1);
+        impArray.splice(index, 1);
+
+
         this.setState({
             tasks: tasksArray,
+            falseArray: falArray,
+            importantArray: impArray,
+            inputStyle: {
+                borderBottom: '',
+            }
         });
 
         localStorage.setItem('tasks', JSON.stringify(tasksArray))
@@ -118,7 +157,6 @@ class ToDoList extends Component {
                 falseArray,
             })
         }
-        return console.log(falseArray)
     };
 
     handleUrgent = index => {
@@ -134,12 +172,40 @@ class ToDoList extends Component {
             this.setState({
                 importantArray,
             })
-        }
-        return console.log(importantArray)
+        }};
+
+    handleReset = () => {
+      const emptyArray = [];
+      localStorage.setItem('tasks', JSON.stringify(emptyArray));
+
+      this.setState({
+          tasks: emptyArray,
+          inputStyle: {
+              borderBottom: '',
+          }
+      })
+
     };
 
+    handleEnterToolTip = () => {
+      this.setState({
+          displayTooltip: {
+              visibility: 'visible',
+          }
+      })
+    };
+
+    handleLeaveToolTip = () => {
+        this.setState({
+            displayTooltip: {
+                visibility: 'hidden',
+            }
+        })
+    };
 
     render() {
+        const {inputStyle, value, tasks,displayTooltip} = this.state;
+
         return (
             <div className="container">
                 <div className="logo">
@@ -154,8 +220,27 @@ class ToDoList extends Component {
                 </div>
                 <div className='listContainer'>
                     <form action="" onSubmit={this.handleSubmit}>
-                        <input type="text" value={this.state.value} onChange={this.handleInput} placeholder='dodaj swoje zadanie'/>
-                        <input type="submit" value='Dodaj'/>
+                        <input
+                            type="text"
+                            style={inputStyle}
+                            value={value}
+                            onChange={this.handleInput}
+                            placeholder='dodaj swoje zadanie'/>
+                        <input
+                            type="submit"
+                            value='Dodaj' />
+                        <div className='count'
+                            onClick={this.handleReset}
+                            onMouseEnter={this.handleEnterToolTip}
+                            onMouseLeave={this.handleLeaveToolTip}
+                            >{tasks.length} / 8
+                        </div>
+                        <div
+                            className='tooltip'
+                            style={displayTooltip}
+                            >
+                            Kliknij aby usunąć wszystkie zadania
+                        </div>
                     </form>
                     <ul>
                         {this.creatingTasks()}
