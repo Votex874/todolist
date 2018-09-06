@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3acc03b7-522c-497c-bdd2-c0379bbd05da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/ToDoTask.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ToDoTask.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ToDoList.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDoList.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/ToDoList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDoList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ToDoList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDoList.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ToDoTask.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDoTask.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,40 +22,58 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ToDoList.jsx" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ToDoList.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/ToDoList.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="244">
+              <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-                <element signature="e#238#317#0" />
-                <element signature="e#605#621#0" />
-                <element signature="e#353#369#0" />
-                <element signature="e#1320#1537#0" />
-                <element signature="e#1053#1069#0" />
-                <element signature="e#1331#1808#0" />
+                <element signature="e#2545#3218#0" />
+                <element signature="e#648#913#0" />
+                <element signature="e#1805#2050#0" />
+                <element signature="e#944#1295#0" />
+                <element signature="e#2085#2460#0" />
+                <element signature="e#1329#1766#0" />
+                <element signature="e#3882#4327#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ToDoTask.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/ToDoTask.jsx">
+      <file leaf-file-name="ToDoList.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/ToDoList.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="37" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
-                <element signature="e#268#601#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ToDoList.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/ToDoList.scss">
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -63,11 +85,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/Components/ToDoList.scss" />
         <option value="$PROJECT_DIR$/src/Components/ToDoTask.scss" />
         <option value="$PROJECT_DIR$/src/Components/ToDoTask.jsx" />
+        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Components/ToDoList.jsx" />
+        <option value="$PROJECT_DIR$/src/app.scss" />
+        <option value="$PROJECT_DIR$/src/Components/ToDoList.scss" />
       </list>
     </option>
   </component>
@@ -87,7 +110,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
     <option name="y" value="5" />
     <option name="width" value="1916" />
@@ -128,7 +151,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../listatodo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -152,35 +175,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536006955264</updated>
-      <workItem from="1536006956459" duration="11448000" />
+      <workItem from="1536006956459" duration="12143000" />
+      <workItem from="1536162887947" duration="7363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11448000" />
+    <option name="totallyTimeSpent" value="19506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="5" width="1916" height="849" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info id="npm" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="6" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +219,40 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Components/ToDoList.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="127" column="39" selection-start-line="127" selection-start-column="39" selection-end-line="127" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#2545#3218#0" />
+            <element signature="e#648#913#0" />
+            <element signature="e#1805#2050#0" />
+            <element signature="e#944#1295#0" />
+            <element signature="e#2085#2460#0" />
+            <element signature="e#1329#1766#0" />
+            <element signature="e#3882#4327#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/ToDoTask.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#426#824#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/ToDoList.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/ToDoTask.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -204,46 +262,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/ToDoTask.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/ToDoList.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/ToDoTask.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        <state relative-caret-position="595">
+          <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#268#601#0" />
+            <element signature="e#426#824#0" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/ToDoList.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="244">
+          <caret line="70" column="45" selection-start-line="70" selection-start-column="45" selection-end-line="70" selection-end-column="45" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#238#317#0" />
-            <element signature="e#605#621#0" />
-            <element signature="e#353#369#0" />
-            <element signature="e#1320#1537#0" />
-            <element signature="e#1053#1069#0" />
-            <element signature="e#1331#1808#0" />
+            <element signature="e#2545#3218#0" />
+            <element signature="e#648#913#0" />
+            <element signature="e#1805#2050#0" />
+            <element signature="e#944#1295#0" />
+            <element signature="e#2085#2460#0" />
+            <element signature="e#1329#1766#0" />
+            <element signature="e#3882#4327#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/ToDoList.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
         </state>
       </provider>
     </entry>

@@ -3,14 +3,19 @@ import './ToDoTask.css';
 
 class ToDoTask extends Component {
 
-    handleImportant = index =>{
-        if (typeof this.props.onImportant === 'function'){
-            this.props.onImportant(index)
+    handleDone = index =>{
+        if (typeof this.props.onDone === 'function'){
+            this.props.onDone(index)
         }
     };
     handleDeleteTask = index => {
         if (typeof this.props.onDelete === 'function'){
             this.props.onDelete(index)
+        }
+    };
+    handleUrgent = index =>{
+        if(typeof this.props.onUrgent === 'function'){
+            this.props.onUrgent(index)
         }
     };
 
@@ -39,8 +44,9 @@ class ToDoTask extends Component {
             <div>
                 <li style={this.settingStyle()}>{element}
                 </li>
-                <button onClick={() => this.handleImportant(tasks.indexOf(element))}>Ważne</button>
+                <button onClick={() => this.handleDone(tasks.indexOf(element))}>Zrobione</button>
                 <button onClick={() => this.handleDeleteTask(tasks.indexOf(element))}>Usuń</button>
+                <button onClick={() => this.handleUrgent(tasks.indexOf(element))}>Pilne</button>
             </div>
         );
     }
