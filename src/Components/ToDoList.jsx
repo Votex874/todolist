@@ -4,7 +4,7 @@ import './ToDoList.css';
 import '../../node_modules/font-awesome/css/font-awesome.css';
 
 class ToDoList extends Component {
-    constructor(props){
+    constructor(props) {
         super(props);
 
         let localTasks = [];
@@ -17,6 +17,8 @@ class ToDoList extends Component {
         let inputStyle = {
             borderBottom: 'none',
         };
+        let display = 'none';
+
 
         this.state = {
             value: '',
@@ -26,7 +28,9 @@ class ToDoList extends Component {
             importantArray,
             inputStyle,
             displayTooltip,
-        }
+            display,
+            date: new Date(),
+        };
     }
 
     creatingTasks = () => {
@@ -203,8 +207,13 @@ class ToDoList extends Component {
         })
     };
 
+
+
+
     render() {
-        const {inputStyle, value, tasks,displayTooltip} = this.state;
+        const {inputStyle, value, tasks,displayTooltip,display} = this.state;
+
+
 
         return (
             <div className="container">
