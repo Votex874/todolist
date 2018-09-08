@@ -8,9 +8,10 @@ class ToDoList extends Component {
         super(props);
 
         let localTasks = [];
-        // let tasks = JSON.parse(localStorage.tasks);
-        // let falseArray = this.createFalseArray(tasks);
-        // let importantArray = this.createFalseArray(tasks);
+        localStorage.setItem('tasks', JSON.stringify(localTasks));
+        let tasks = JSON.parse(localStorage.tasks);
+        let falseArray = this.createFalseArray(tasks);
+        let importantArray = this.createFalseArray(tasks);
         let displayTooltip = {
             visibility: 'hidden',
         };
