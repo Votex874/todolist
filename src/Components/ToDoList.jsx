@@ -9,7 +9,7 @@ class ToDoList extends Component {
 
         let localTasks = [];
         let tasks;
-        if (localStorage.tasks === 'undefined'){
+        if (localStorage.tasks === undefined){
             localStorage.setItem('tasks', JSON.stringify(localTasks))
         }else {
             tasks = JSON.parse(localStorage.tasks);
