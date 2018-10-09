@@ -72,8 +72,6 @@ class ToDoList extends Component {
             for(let i = 0; i <= tasks.length; i++){
                 arrayCheck.push(false)
             }
-
-        console.log(arrayCheck);
         return arrayCheck;
     };
 
