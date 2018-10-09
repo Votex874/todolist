@@ -16,80 +16,50 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5529986">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ToDoList.jsx" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/Components/ToDoList.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" selection-start-line="12" selection-end-line="12" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                    <element signature="e#1939#2214#0" />
-                    <element signature="e#2253#2484#0" />
-                    <element signature="e#2514#3004#0" />
-                    <element signature="e#3035#3733#0" />
-                    <element signature="e#3768#4476#0" />
-                    <element signature="e#4505#4942#0" />
-                    <element signature="e#4973#5345#0" />
-                    <element signature="e#5372#5603#0" />
-                    <element signature="e#5637#5752#0" />
-                    <element signature="e#5786#5910#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ToDoTask.jsx" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Components/ToDoTask.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/build/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/App.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ToDoList.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/ToDoList.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToDoTask.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/ToDoTask.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-334">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -137,7 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,16 +124,11 @@
               <item name="todolist" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="todolist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="todolist" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,11 +178,12 @@
       <workItem from="1538403258235" duration="814000" />
       <workItem from="1538556790144" duration="1319000" />
       <workItem from="1539029289884" duration="1391000" />
+      <workItem from="1539088975042" duration="617000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57438000" />
+    <option name="totallyTimeSpent" value="58055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="6" width="1936" height="770" extended-state="0" />
@@ -228,13 +193,13 @@
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info id="npm" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="6" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -279,16 +244,6 @@
           <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#1939#2214#0" />
-            <element signature="e#2253#2484#0" />
-            <element signature="e#2514#3004#0" />
-            <element signature="e#3035#3733#0" />
-            <element signature="e#3768#4476#0" />
-            <element signature="e#4505#4942#0" />
-            <element signature="e#4973#5345#0" />
-            <element signature="e#5372#5603#0" />
-            <element signature="e#5637#5752#0" />
-            <element signature="e#5786#5910#0" />
           </folding>
         </state>
       </provider>
@@ -333,16 +288,6 @@
           <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#1939#2214#0" />
-            <element signature="e#2253#2484#0" />
-            <element signature="e#2514#3004#0" />
-            <element signature="e#3035#3733#0" />
-            <element signature="e#3768#4476#0" />
-            <element signature="e#4505#4942#0" />
-            <element signature="e#4973#5345#0" />
-            <element signature="e#5372#5603#0" />
-            <element signature="e#5637#5752#0" />
-            <element signature="e#5786#5910#0" />
           </folding>
         </state>
       </provider>
@@ -380,16 +325,6 @@
           <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#1939#2214#0" />
-            <element signature="e#2253#2484#0" />
-            <element signature="e#2514#3004#0" />
-            <element signature="e#3035#3733#0" />
-            <element signature="e#3768#4476#0" />
-            <element signature="e#4505#4942#0" />
-            <element signature="e#4973#5345#0" />
-            <element signature="e#5372#5603#0" />
-            <element signature="e#5637#5752#0" />
-            <element signature="e#5786#5910#0" />
           </folding>
         </state>
       </provider>
@@ -427,16 +362,6 @@
           <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#1939#2214#0" />
-            <element signature="e#2253#2484#0" />
-            <element signature="e#2514#3004#0" />
-            <element signature="e#3035#3733#0" />
-            <element signature="e#3768#4476#0" />
-            <element signature="e#4505#4942#0" />
-            <element signature="e#4973#5345#0" />
-            <element signature="e#5372#5603#0" />
-            <element signature="e#5637#5752#0" />
-            <element signature="e#5786#5910#0" />
           </folding>
         </state>
       </provider>
@@ -481,16 +406,6 @@
           <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#1939#2214#0" />
-            <element signature="e#2253#2484#0" />
-            <element signature="e#2514#3004#0" />
-            <element signature="e#3035#3733#0" />
-            <element signature="e#3768#4476#0" />
-            <element signature="e#4505#4942#0" />
-            <element signature="e#4973#5345#0" />
-            <element signature="e#5372#5603#0" />
-            <element signature="e#5637#5752#0" />
-            <element signature="e#5786#5910#0" />
           </folding>
         </state>
       </provider>
@@ -525,16 +440,6 @@
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#1939#2214#0" />
-            <element signature="e#2253#2484#0" />
-            <element signature="e#2514#3004#0" />
-            <element signature="e#3035#3733#0" />
-            <element signature="e#3768#4476#0" />
-            <element signature="e#4505#4942#0" />
-            <element signature="e#4973#5345#0" />
-            <element signature="e#5372#5603#0" />
-            <element signature="e#5637#5752#0" />
-            <element signature="e#5786#5910#0" />
           </folding>
         </state>
       </provider>
@@ -569,16 +474,6 @@
           <caret line="113" column="43" selection-start-line="113" selection-start-column="43" selection-end-line="113" selection-end-column="43" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#1939#2214#0" />
-            <element signature="e#2253#2484#0" />
-            <element signature="e#2514#3004#0" />
-            <element signature="e#3035#3733#0" />
-            <element signature="e#3768#4476#0" />
-            <element signature="e#4505#4942#0" />
-            <element signature="e#4973#5345#0" />
-            <element signature="e#5372#5603#0" />
-            <element signature="e#5637#5752#0" />
-            <element signature="e#5786#5910#0" />
           </folding>
         </state>
       </provider>
@@ -606,16 +501,6 @@
           <caret line="127" column="39" selection-start-line="127" selection-start-column="39" selection-end-line="127" selection-end-column="39" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#1939#2214#0" />
-            <element signature="e#2253#2484#0" />
-            <element signature="e#2514#3004#0" />
-            <element signature="e#3035#3733#0" />
-            <element signature="e#3768#4476#0" />
-            <element signature="e#4505#4942#0" />
-            <element signature="e#4973#5345#0" />
-            <element signature="e#5372#5603#0" />
-            <element signature="e#5637#5752#0" />
-            <element signature="e#5786#5910#0" />
           </folding>
         </state>
       </provider>
@@ -701,7 +586,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/ToDoTask.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="-334">
           <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
@@ -711,20 +596,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/ToDoList.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="415">
+          <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#1939#2214#0" />
-            <element signature="e#2253#2484#0" />
-            <element signature="e#2514#3004#0" />
-            <element signature="e#3035#3733#0" />
-            <element signature="e#3768#4476#0" />
-            <element signature="e#4505#4942#0" />
-            <element signature="e#4973#5345#0" />
-            <element signature="e#5372#5603#0" />
-            <element signature="e#5637#5752#0" />
-            <element signature="e#5786#5910#0" />
           </folding>
         </state>
       </provider>

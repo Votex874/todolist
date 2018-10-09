@@ -8,7 +8,7 @@ class ToDoList extends Component {
         super(props);
 
         let localTasks = [];
-        let tasks;
+        let tasks = [];
         if (localStorage.tasks === undefined){
             localStorage.setItem('tasks', JSON.stringify(localTasks))
         }else {
@@ -69,10 +69,11 @@ class ToDoList extends Component {
         //tworzy tablice z pustymi elementami które potem beda zmieniane na
         //done jako klase dla danego li-ka
         let arrayCheck = [];
+            for(let i = 0; i <= tasks.length; i++){
+                arrayCheck.push(false)
+            }
 
-        for(let i = 0; i < tasks.length; i++){
-            arrayCheck.push(false)
-        }
+        console.log(arrayCheck);
         return arrayCheck;
     };
 
@@ -216,7 +217,7 @@ class ToDoList extends Component {
 
 
     render() {
-        const {inputStyle, value, tasks,displayTooltip,display} = this.state;
+        const {inputStyle, value, tasks,displayTooltip} = this.state;
 
 
 
